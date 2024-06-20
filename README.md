@@ -1,4 +1,4 @@
-![image](https://github.com/Farhaan114/A-Voice-Based-Health-Assistant-FANISU/assets/110080291/ad419a8b-0796-4502-a033-532783652aaa)![image](https://github.com/Farhaan114/A-Voice-Based-Health-Assistant-FANISU/assets/110080291/643f2346-fad3-48bb-bf61-7f60e69457db)# A voice-based health assistant web app 
+# A voice-based health assistant web app 
 
 Users should be able to describe their symptoms verbally and receive personalized advice on potential remedies and quick-fixes, prioritizing privacy and accuracy.
 
@@ -29,7 +29,6 @@ IMPLEMENTATION:
 -User interface: A user-friendly web interface was designed, incorporating responsive design principles for various device types.
 
 
-![image](https://github.com/Farhaan114/A-Voice-Based-Health-Assistant-FANISU/assets/110080291/7b2fa199-ff88-4c7a-bd0d-1182b508f40d)
 
 
 
