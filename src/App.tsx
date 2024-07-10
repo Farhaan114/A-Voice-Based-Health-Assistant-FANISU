@@ -1,7 +1,6 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import backgroundImage from "./assets/Fanisu.png";
-
 
 function App() {
   const [recordingState, setRecordingState] = useState(false);
@@ -17,15 +16,13 @@ function App() {
   return (
     <div className="container" style={backgroundStyle}>
       <button
-
         style={{
           background: "black",
           color: "white",
           fontSize: "16px",
           padding: "10px 20px",
           borderRadius: "5px",
-          }}
-
+        }}
         onClick={async () => {
           const voiceRecog = new window.webkitSpeechRecognition();
           voiceRecog.continuous = true;
@@ -39,20 +36,20 @@ function App() {
           } else {
             voiceRecog.stop();
             setRecordingState(false);
-            const responseData = await (
-              await fetch("http://127.0.0.1:5000/transcript", {
+            try {
+              const responseData = await fetch("http://127.0.0.1:5000/transcript", {
                 method: "POST",
                 headers: {
                   "Content-Type": "application/json",
                   "Access-Control-Request-Method": "POST",
                 },
-                body: JSON.stringify({
-                  transcriptText,
-                }),
-              })
-            ).json();
+                body: JSON.stringify({ transcriptText }),
+              }).then((res) => res.json());
 
-            setRemedyText(responseData[2]);
+              setRemedyText(responseData[2]);
+            } catch (error) {
+              console.error("Error fetching remedy:", error);
+            }
           }
         }}
       >
