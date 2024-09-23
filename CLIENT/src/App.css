@@ -1,0 +1,48 @@
+/* App.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #ab141c;
+}
+
+h1{
+  font-family: "Bebas Neue";
+  color:white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-position: center; /* Position the image from the bottom left */
+  background-size: cover; /* Keep the image's natural size */
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+button {
+  background-color: black;
+  color: rgb(17, 17, 17);
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: darkgray;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 10px 0;
+}
