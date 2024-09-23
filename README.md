@@ -8,14 +8,14 @@ OUTPUT:
 ![output](https://github.com/Farhaan114/A-Voice-Based-Health-Assistant-FANISU/assets/110080291/79b21f5d-7cde-49a3-bd59-5c214cd79059)
 
 TECH STACK USED: 
-Front-end: React with TypeScript
-Back-end: Flask
-Database: SQL (SQLite3)
+Front-end: REACT.JS
+Back-end: NODE.JS and EXPRESS.JS
+Database: MYSQL
 
 
 WORKFLOW: 
 
-![IMAGE PROCESSING WORKING](https://github.com/Farhaan114/A-Voice-Based-Health-Assistant-FANISU/assets/110080291/3db856aa-b216-4ce6-9669-a3284686d7ab)
+![FLOW](https://github.com/Farhaan114/A-Voice-Based-Health-Assistant-FANISU/blob/master/CLIENT/src/assets/SPEECH%20RECOGNITION.png)
 
 
 IMPLEMENTATION: 
