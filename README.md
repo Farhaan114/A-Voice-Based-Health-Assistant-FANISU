@@ -58,7 +58,7 @@ OUTPUT:
 
 4. **Start the server**:
    ```bash
-   npm start
+   nodemon server.js
    ```
 
 5. **Run the frontend**:
