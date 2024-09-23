@@ -3,14 +3,18 @@
 Users should be able to describe their symptoms verbally and receive personalized advice on potential remedies and quick-fixes, prioritizing privacy and accuracy.
 
 -*Done using React.JS, Node.JS, Express.JS and MySQL.*
+
 -*The project aims at providing a quick-fix/remedy to the user based on the voice transcription given.*
 
 OUTPUT:
 ![output](https://github.com/Farhaan114/A-Voice-Based-Health-Assistant-FANISU/assets/110080291/79b21f5d-7cde-49a3-bd59-5c214cd79059)
 
 ## TECH STACK USED: 
+
 -Front-end: REACT.JS
+
 -Back-end: NODE.JS and EXPRESS.JS
+
 -Database: MYSQL
 
 
